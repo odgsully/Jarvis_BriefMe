@@ -9,6 +9,7 @@ from urllib.parse import urlparse, parse_qs
 
 from ..utils.logger import get_logger
 from ..utils.retry import async_retry
+from .transcript_analytics import TranscriptAnalyzer, TranscriptAnalysis
 
 logger = get_logger(__name__)
 
@@ -18,7 +19,8 @@ class TranscriptProcessor:
     
     def __init__(self):
         """Initialize the transcript processor."""
-        self.paicc_dir = Path(__file__).parent.parent.parent / "paicc-2 copy"
+        self.paicc_dir = Path(__file__).parent.parent.parent / "paicc-2-copy"
+        self.analyzer = TranscriptAnalyzer()
         
     def extract_youtube_id(self, url: str) -> Optional[str]:
         """Extract YouTube video ID from URL.
@@ -203,91 +205,38 @@ class TranscriptProcessor:
         logger.info(f"Saved transcript from {url} to {filepath}")
         return filepath
     
-    async def run_paicc_analysis(self, transcript_file: Path) -> Optional[dict]:
-        """Run paicc-2 copy analysis on transcript file.
+    async def run_paicc_analysis(self, transcript_text: str, include_word_frequency: bool = False) -> Optional[TranscriptAnalysis]:
+        """Run transcript analysis using OpenAI API.
         
         Args:
-            transcript_file: Path to transcript file
+            transcript_text: Transcript text to analyze
+            include_word_frequency: Whether to include word frequency analysis
             
         Returns:
-            Analysis results dict or None if failed
+            TranscriptAnalysis object or None if failed
         """
         try:
-            # Run the paicc analysis
-            cmd = [
-                "python", "-m", "src.transcript_analytics.main",
-                "--transcript-file", str(transcript_file),
-                "--min-count-threshold", "2"
-            ]
-            
-            result = subprocess.run(
-                cmd,
-                cwd=str(self.paicc_dir),
-                capture_output=True,
-                text=True,
-                timeout=120
+            # Run the analysis using our new analyzer
+            analysis = await self.analyzer.analyze_transcript(
+                transcript_text, 
+                include_word_frequency=include_word_frequency,
+                min_word_count=5
             )
             
-            if result.returncode != 0:
-                logger.error(f"paicc analysis failed: {result.stderr}")
-                return None
-            
-            # Parse the output to extract analysis results
-            output = result.stdout
-            analysis = self._parse_analysis_output(output)
-            
-            logger.info(f"Completed paicc analysis for {transcript_file}")
+            logger.info("Completed transcript analysis")
             return analysis
             
-        except subprocess.TimeoutExpired:
-            logger.error(f"Timeout running paicc analysis for {transcript_file}")
-            return None
         except Exception as e:
-            logger.error(f"Error running paicc analysis: {e}")
+            logger.error(f"Error running transcript analysis: {e}")
             return None
     
-    def _parse_analysis_output(self, output: str) -> dict:
-        """Parse paicc analysis output into structured data.
-        
-        Args:
-            output: Raw command output
-            
-        Returns:
-            Parsed analysis dict
-        """
-        analysis = {
-            "quick_summary": "",
-            "bullet_points": [],
-            "sentiment": "",
-            "keywords": []
-        }
-        
-        lines = output.split('\n')
-        current_section = None
-        
-        for line in lines:
-            line = line.strip()
-            
-            if line.startswith("Quick Summary:"):
-                analysis["quick_summary"] = line.replace("Quick Summary:", "").strip()
-            elif line == "Bullet Point Highlights:":
-                current_section = "bullets"
-            elif line.startswith("Sentiment Analysis:"):
-                analysis["sentiment"] = line.replace("Sentiment Analysis:", "").strip()
-            elif line == "Keywords:":
-                current_section = "keywords"
-            elif line.startswith("- ") and current_section == "bullets":
-                analysis["bullet_points"].append(line[2:])
-            elif line.startswith("- ") and current_section == "keywords":
-                analysis["keywords"].append(line[2:])
-        
-        return analysis
     
-    async def process_url(self, url: str) -> Optional[str]:
+    async def process_url(self, url: str, include_word_frequency: bool = False) -> Optional[str]:
         """Process a URL through the complete pipeline.
         
         Args:
             url: YouTube URL to process
+            include_word_frequency: Whether to include word frequency analysis
             
         Returns:
             Formatted analysis summary or None if failed
@@ -300,27 +249,30 @@ class TranscriptProcessor:
                 video_id = self.extract_youtube_id(url)
                 return f"Transcript not available for video {video_id or 'unknown'}. The video may not have captions enabled or may be private/restricted."
             
-            # Save to file
-            transcript_file = self.save_transcript_file(transcript, url)
+            # Optionally save to file for debugging/reference
+            # transcript_file = self.save_transcript_file(transcript, url)
             
-            # Run analysis
-            analysis = await self.run_paicc_analysis(transcript_file)
+            # Run analysis directly on transcript text
+            analysis = await self.run_paicc_analysis(transcript, include_word_frequency)
             if not analysis:
                 return f"Analysis failed for transcript from {url}"
             
             # Format results for briefing
             summary_parts = []
             
-            if analysis.get("quick_summary"):
-                summary_parts.append(f"Summary: {analysis['quick_summary']}")
+            if analysis.quick_summary:
+                summary_parts.append(f"Summary: {analysis.quick_summary}")
             
-            if analysis.get("bullet_points"):
+            if analysis.bullet_point_highlights:
                 summary_parts.append("Key Points:")
-                for point in analysis["bullet_points"][:3]:  # Limit to top 3
+                for point in analysis.bullet_point_highlights[:3]:  # Limit to top 3
                     summary_parts.append(f"• {point}")
             
-            if analysis.get("sentiment"):
-                summary_parts.append(f"Sentiment: {analysis['sentiment']}")
+            if analysis.sentiment_analysis:
+                summary_parts.append(f"Sentiment: {analysis.sentiment_analysis}")
+            
+            if analysis.keywords:
+                summary_parts.append(f"Keywords: {', '.join(analysis.keywords[:5])}")  # Top 5 keywords
             
             return "\n".join(summary_parts)
             
