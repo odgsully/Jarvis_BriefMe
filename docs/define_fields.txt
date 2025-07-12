@@ -1,0 +1,56 @@
+Defining Fields
+
+[FULLDATE] - current date
+[YC article pick] - fetch the top 10 titles from https://news.ycombinator.com/, choose the article most tailored to 3D, MCP’s, robotics, startup news, AI and disruption.
+[YC article Summary] - Summary of the chosen article
+[YC article keypoints] - Key facts and points derived from article
+[YC article keywords] - list Tags with all relevant keywords from article
+[GitHub trending MCP Name] - What’s the top trending MCP on GitHub TODAY? https://github.com/trending
+[GitHub trending MCP Summary] - Summary of contents of top trending MCP on GitHub TODAY https://github.com/trending/.
+[Phoenix Business Journal article pick]
+[Phoenix Business Journal Summary] - Fetch top relevant PBJ real estate article
+[Phoenix Business Journal keypoints] -  Key facts and points derived from article
+[Phoenix Business Journal keywords] - Tag with all relevant keywords from article
+[TABLELookUptoTranscriptoMasterAICodingNewTranscriptAnalysis] - Pulling from Transcript_Summaries from Google Sheets jarvis notion python. After running URL in column B through paicc-2 copy for a text analysis, display said analysis here.
+[Country of the Day] - Generate country name at random
+[Country Capital of the Day] - capital city of the Country of the Day
+[Capital of the Day Location breakdown] - openai call of Location description as if I am totally unfamiliar with it’s geography of the country itself. back-in to the city location from where country is 
+[GetToIt] - saying i.e. dive in, take a glance at, breakdown,
+[CodebaseToday] - Look at my GitHub, odgsully , choose a codebase Logic should be in here to go down the daily updated list, not to repeat back to back days (unless single repo record).
+[Current Codebase summary of the Day] - and provide summary of the codebase with every directory laid out in a comprehensive, digestible way.
+[DaysLeft] - There are 3 day cycles. This field is a sequential 3, 2, 1, 3, 2, 1, 3, 2 …. Repeated pattern changing each day.
+[CurrentStudyYear] - Advances 1 year at the end of every cycle end. (DaysLeft=3)
+[CurrentYearBestPicture] - Academy Award for Best Picture for CurrentStudyYear
+[CurrentYearBestActorinPicture] - Academy Award for Best Actor for CurrentStudyYear
+[CurrentYearBestCinematography] - Academy Award for Best Cinematography for CurrentStudyYear
+[CurrentYearBestScore] - Academy Award for Best Score for CurrentStudyYear
+[CurrentYearBestForeignFilm] - Academy Award for Best Foreign Film for CurrentStudyYear
+[CURRENT_YEAR_BEST_PICTURE_SUM] - Brief 50 word summary of plot.
+[CURRENT_YEAR_BEST_ACTOR_IN_PICTURE_SUM] - Brief 50 word summary of plot of film starred in.
+[CURRENT_YEAR_BEST_CINEMATOGRAPHY_SUM] - Brief 50 word summary of plot.
+[CURRENT_YEAR_BEST_SCORE_SUM] - brief 25 word summary that includes composer name.
+[CURRENT_YEAR_BEST_FOREIGN_FILM_SUM] - Brief 50 word summary of plot.
+[MajorInventionofYear] - Choose the most impactful invention of CurrentStudyYear
+[MajorInventionSummary] - Summary/history not to exceed 100 words.
+[CurrentStudyState] - Go down U.S. states list 1 by 1.
+[CurrentGolfStateSummary] - Describe the most renowned golf courses/clubs of that state, be sure to go into detail about their whereabouts in relation to major cities or landmarks in metrics of driving distances and direction (NESW)
+[CurrentYearUS President & VP’s] - Current sitting president and vice president of the United States for CurrentStudyYear
+[NewMajorPresidentialDecision] - Note a consequential decision the president made in CurrentStudyYear.
+[WW1Fact] - Random WW1 factoid. Keep to 50 words.
+[WW2Fact] - Random WW2 factoid. Keep to 50 words.
+[EuropeFact] - Random Europe historical factoid. Keep to 50 words.
+[IrelandFact] - Random Ireland historical factoid. Keep to 50 words.
+[JerusalemFact] - Random Jerusalem historic factoid. Keep to 50 words.
+[IndiaFact] - Random India historical factoid. Keep to 50 words.
+[MexicoFact] - Random Mexico historical factoid. Keep to 50 words.
+[NewStudyRecourseStuntRiggingSummary] - Random StuntRiggingSummary. Keep to 50 words.
+[HistoryoftheBikeFunFactSummary] - Random dirt bike or street motorcycle factoid. Keep to 100 words.
+[NASA Launch History] - NASA launch historic factoid for CurrentStudyYear Keep to 100 words.
+[TeachMeGC] - Give me a 2 paragraph excerpt that’s standard for general contractors for commercial and residential developments. Keep to 100 words.
+[QuizMeCSTerm] - random choice from table computer science terms. 
+[QUIZ_ME_ESPANOL] - column A 'En español' from Google Sheets jarvis notion python 'espanol' sheet
+[QuizMeIngles] - column B 'en ingles' from Google Sheets jarvis notion python 'espanol' sheet
+[QUIZ_ME_CS_TERM] - Field 'Concept' from Google Sheets jarvis notion python 'cs_terms' sheet
+[QUIZ_ME_CS_DEFINE] - Field 'Define' from Google Sheets jarvis notion python 'cs_terms' sheet
+
+

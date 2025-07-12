@@ -1,0 +1,231 @@
+Good morning sir!
+Here is your daily update for {{ FULLDATE }}, starting with blogs summaries for top channels, followed by Key Ongoing Learning's KOL's.
+
+
+Kicking off our blogs, for YC today, we highlight {{ YC_ARTICLE_PICK }}
+
+{{ YC_ARTICLE_SUMMARY }}
+
+{{ YC_ARTICLE_KEYPOINTS }}
+
+{{ YC_ARTICLE_KEYWORDS }}
+
+Next, we take a look at the top trending MCP on Github for {{ FULLDATE }}.
+
+{{ GITHUB_TRENDING_MCP_NAME }}
+
+{{ GITHUB_TRENDING_MCP_SUMMARY }}
+
+
+Reminder that you can add to your Notion database Transcript Summaries under Agentic IndyDevDan directory to paste URL's for analysis.
+For video transcript breakdowns for this week we have,
+{{ TRANSCRIPT_TABLE }}
+
+
+
+Today for Key Ongoing Learnings’s!
+The Country of the Day is {{ COUNTRY_OF_THE_DAY }} which capital is {{ COUNTRY_CAPITAL_OF_THE_DAY }}, {{ CAPITAL_LOCATION_BREAKDOWN }}
+Now, let’s {{ GET_TO_IT_SAYING }} of one of your codebases from GitHub. Today we look at {{ CODEBASE_TODAY }}. {{ CODEBASE_SUMMARY }}
+
+
+For the next {{ DAYS_LEFT }} days, we are studying the Year {{ CURRENT_STUDY_YEAR }}.
+
+
+Let’s have some reference points for U.S. cities,  Today we have {{ CURRENT_STUDY_STATE }} {{ CURRENT_GOLF_STATE_SUMMARY }}
+{{ CURRENT_YEAR_US_PRESIDENT_VPS }}
+
+A major presidential decision for that year was: {{ NEW_MAJOR_PRESIDENTIAL_DECISION }}
+
+
+{{ CURRENT_STUDY_YEAR }} was a great year for motion pictures. 
+
+{{ CURRENT_YEAR_BEST_PICTURE }} was the Best Picture of {{ CURRENT_STUDY_YEAR }}. {{ CURRENT_YEAR_BEST_PICTURE_SUM }}
+{{ CURRENT_YEAR_BEST_ACTOR_IN_PICTURE }} won Best Actor of {{ CURRENT_STUDY_YEAR }}. {{ CURRENT_YEAR_BEST_ACTOR_IN_PICTURE_SUM }}
+{{ CURRENT_YEAR_BEST_CINEMATOGRAPHY }} won Best Cinematography of {{ CURRENT_STUDY_YEAR }}. {{ CURRENT_YEAR_BEST_CINEMATOGRAPHY_SUM }}
+{{ CURRENT_YEAR_BEST_SCORE }} won best score for {{ CURRENT_STUDY_YEAR }}. {{ CURRENT_YEAR_BEST_SCORE_SUM }}
+{{ CURRENT_YEAR_BEST_FOREIGN_FILM }} was the best Foreign film of the year. {{ CURRENT_YEAR_BEST_FOREIGN_FILM_SUM }}
+
+
+
+
+
+
+
+
+More on History Facts,
+Did you know that in World War 1, {{ WW1_FACT }}
+
+Did you know that in World War 2,{{ WW2_FACT }}
+
+Did you know this about Europe? {{ EUROPE_FACT }}
+
+Did you know this about Ireland? {{ IRELAND_FACT }}
+
+Did you know this about Jerusalem?{{ JERUSALEM_FACT }}
+
+Did you know this about India? {{ INDIA_FACT }}
+
+Did you know this about Mexico? {{ MEXICO_FACT }}
+
+
+
+
+Now on to some engineering facts,
+
+For Stunt Rigging, we have {{ STUNT_RIGGING_SUMMARY }}
+
+For History of the Bike, we have {{ BIKE_FUN_FACT }}
+
+For space travel, we have {{ NASA_LAUNCH_HISTORY }}
+
+For General Contractor Knowledge, {{ TEACH_ME_GC }}
+
+{{ MAJOR_INVENTION_OF_YEAR }} was a major development of {{ CURRENT_STUDY_YEAR }}, {{ MAJOR_INVENTION_SUMMARY }}.
+
+
+
+Project Global Citizen time!
+
+{{ DAILY_LANGUAGE_SECTION }}
+
+I don’t know.
+English — I don’t know.
+Spanish — No lo sé.
+French — Je ne sais pas.
+Japanese — 分かりません。 
+Mandarin — 我不知道。 
+Italian — Non lo so.
+Arabic — لا أَعرف. 
+Hebrew — אני לא יודע. 
+German — Ich weiß nicht.
+Russian — Я не знаю. 
+Portuguese — Eu não sei.
+
+I’m sorry, I speak English.
+English — I’m sorry, I speak English.
+Spanish — Lo siento, hablo inglés.
+French — Je suis désolé(e), je parle anglais.
+Japanese — すみません、英語しか話せません。 
+Mandarin — 对不起，我只说英语。 
+Italian — Mi dispiace, parlo solo inglese.
+Arabic — آسف، أنا أتكلم الإنجليزية فقط. 
+Hebrew — סליחה, אני מדבר אנגלית. 
+German — Entschuldigung, ich spreche nur Englisch.
+Russian — Простите, я говорю только по-английски. 
+Portuguese — Desculpe, eu só falo inglês.
+
+Very good.
+English — Very good.
+Spanish — Muy bien.
+French — Très bien.
+Japanese — とてもいいです。 
+Mandarin — 非常好。 
+Italian — Molto bene.
+Arabic — ممتاز. 
+Hebrew — טוב מאוד. 
+German — Sehr gut.
+Russian — Очень хорошо. 
+Portuguese — Muito bom.
+
+Thank you.
+English — Thank you.
+Spanish — Gracias.
+French — Merci.
+Japanese — ありがとう。 
+Mandarin — 谢谢。 
+Italian — Grazie.
+Arabic — شكراً. 
+Hebrew — תודה. 
+German — Danke.
+Russian — Спасибо. 
+Portuguese — Obrigado / Obrigada.
+
+What’s up?
+English — What’s up?
+Spanish — ¿Qué tal? / ¿Qué pasa?
+French — Ça va ?
+Japanese — 元気？ 
+Mandarin — 怎么样？ 
+Italian — Che si dice?
+Arabic — ما الأخبار؟ 
+Hebrew — מה קורה? 
+German — Was geht?
+Russian — Как дела? 
+Portuguese — E aí?
+
+That, please.
+English — That, please.
+Spanish — Eso, por favor.
+French — Cela, s’il vous plaît.
+Japanese — それをください。 
+Mandarin — 那个，请。 
+Italian — Quello, per favore.
+Arabic — ذلك من فضلك. 
+Hebrew — את זה, בבקשה.
+German — Das bitte.
+Russian — То, пожалуйста. 
+Portuguese — Aquilo, por favor.
+
+Good morning.
+English — Good morning.
+Spanish — Buenos días.
+French — Bonjour.
+Japanese — おはようございます。 
+Mandarin — 早上好。 
+Italian — Buongiorno.
+Arabic — صباح الخير. 
+Hebrew — בוקר טוב. 
+German — Guten Morgen.
+Russian — Доброе утро. 
+Portuguese — Bom dia.
+
+Good afternoon.
+English — Good afternoon.
+Spanish — Buenas tardes.
+French — Bon après-midi.
+Japanese — こんにちは。 
+Mandarin — 下午好。 
+Italian — Buon pomeriggio.
+Arabic — مساء الخير / طاب مساؤك. 
+Hebrew — צהריים טובים. 
+German — Guten Tag.
+Russian — Добрый день. 
+Portuguese — Boa tarde.
+
+Good night.
+English — Good night.
+Spanish — Buenas noches.
+French — Bonne nuit.
+Japanese — おやすみなさい。 
+Mandarin — 晚安。 
+Italian — Buona notte.
+Arabic — تصبح على خير. 
+Hebrew — לילה טוב. (Láyla tov.)
+German — Gute Nacht.
+Russian — Спокойной ночи. 
+Portuguese — Boa noite.
+
+Count 0 - 5
+English — zero, one, two, three, four, five
+Spanish — cero, uno, dos, tres, cuatro, cinco
+French — zéro, un, deux, trois, quatre, cinq
+Japanese — ゼロ (zero), いち (ichi), に (ni), さん (san), よん (yon), ご (go)
+Mandarin — 零 (líng), 一 (yī), 二 (èr), 三 (sān), 四 (sì), 五 (wǔ)
+Italian — zero, uno, due, tre, quattro, cinque
+Arabic — صفر (ṣifr), واحد (wāḥid), اثنان (ithnān), ثلاثة (thalātha), أربعة (arbaʿa), خمسة (khamsa)
+Hebrew — אפס (efes), אחד (echad), שתיים (shtáyim), שלוש (shalósh), ארבע (árba), חמש (hamésh)
+German — null, eins, zwei, drei, vier, fünf
+Russian — ноль (nolʹ), один (odín), два (dva), три (tri), четыре (che-tý-re), пять (pyatʹ)
+Portuguese — zero, um, dois, três, quatro, cinco
+
+Alright QUIZ TIME!
+For computer scrience Term today we have {{ QUIZ_ME_CS_TERM }}.
+A {{ QUIZ_ME_CS_TERM }} is {{ QUIZ_ME_CS_DEFINE }}
+
+Practicas!
+{{ QUIZ_ME_ESPANOL }} means {{ QuizMeIngles }}
+{{ QuizMeIngles }} means {{ QUIZ_ME_ESPANOL }} 
+
+
+That's the full briefing! Talk tomorrow.
+

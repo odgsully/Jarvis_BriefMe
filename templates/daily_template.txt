@@ -1,0 +1,92 @@
+Good morning sir!
+Here is your daily update for {{ FULLDATE }}, starting with blogs summaries for top channels, followed by Key Ongoing Learning's KOL's.
+
+
+Kicking off our blogs, for YC today, we highlight {{ YC_ARTICLE_PICK }}
+
+{{ YC_ARTICLE_SUMMARY }}
+
+{{ YC_ARTICLE_KEYPOINTS }}
+
+{{ YC_ARTICLE_KEYWORDS }}
+
+Next, we take a look at the top trending MCP on Github for {{ FULLDATE }}.
+
+{{ GITHUB_TRENDING_MCP_NAME }}
+
+{{ GITHUB_TRENDING_MCP_SUMMARY }}
+
+
+Reminder that you can add to your Notion database Transcript Summaries under Agentic IndyDevDan directory to paste URL's for analysis.
+For video transcript breakdowns for this week we have,
+{{ TRANSCRIPT_TABLE }}
+
+
+
+Today for Key Ongoing Learnings's!
+The Country of the Day is {{ COUNTRY_OF_THE_DAY }} which capital is {{ COUNTRY_CAPITAL_OF_THE_DAY }}, {{ CAPITAL_LOCATION_BREAKDOWN }}
+Now, let's {{ GET_TO_IT_SAYING }} of one of your codebases from GitHub. Today we look at {{ CODEBASE_TODAY }}. {{ CODEBASE_SUMMARY }}
+
+
+For the next {{ DAYS_LEFT }} days, we are studying the Year {{ CURRENT_STUDY_YEAR }}.
+{{ CURRENT_YEAR_US_PRESIDENT_VPS }} were the president and vice president at the time.
+A major presidential decision for {{ CURRENT_STUDY_YEAR }} was: {{ NEW_MAJOR_PRESIDENTIAL_DECISION }}
+
+
+Let's have some reference points for U.S. cities,  Today we have {{ CURRENT_STUDY_STATE }} {{ CURRENT_GOLF_STATE_SUMMARY }}
+
+
+{{ CURRENT_STUDY_YEAR }} was a great year for motion pictures. 
+
+{{ CURRENT_YEAR_BEST_PICTURE }} was the Best Picture of {{ CURRENT_STUDY_YEAR }}. {{ CURRENT_YEAR_BEST_PICTURE_SUM }}
+{{ CURRENT_YEAR_BEST_ACTOR_IN_PICTURE }} won Best Actor of {{ CURRENT_STUDY_YEAR }}. {{ CURRENT_YEAR_BEST_ACTOR_IN_PICTURE_SUM }}
+{{ CURRENT_YEAR_BEST_CINEMATOGRAPHY }} won Best Cinematography of {{ CURRENT_STUDY_YEAR }}. {{ CURRENT_YEAR_BEST_CINEMATOGRAPHY_SUM }}
+{{ CURRENT_YEAR_BEST_SCORE }} won best score for {{ CURRENT_STUDY_YEAR }}. {{ CURRENT_YEAR_BEST_SCORE_SUM }}
+{{ CURRENT_YEAR_BEST_FOREIGN_FILM }} was the best Foreign film of the year. {{ CURRENT_YEAR_BEST_FOREIGN_FILM_SUM }}
+
+
+Now on to some engineering facts,
+
+For Stunt Rigging, we have {{ STUNT_RIGGING_SUMMARY }}
+
+For History of the Bike, we have {{ BIKE_FUN_FACT }}
+
+For space travel, we have {{ NASA_LAUNCH_HISTORY }}
+
+For General Contractor Knowledge, {{ TEACH_ME_GC }}
+
+{{ MAJOR_INVENTION_OF_YEAR }} was a major development of {{ CURRENT_STUDY_YEAR }}, {{ MAJOR_INVENTION_SUMMARY }}.
+
+
+
+More on History Facts,
+Did you know that in World War 1, {{ WW1_FACT }}
+
+Did you know that in World War 2,{{ WW2_FACT }}
+
+Did you know this about Europe? {{ EUROPE_FACT }}
+
+Did you know this about Ireland? {{ IRELAND_FACT }}
+
+Did you know this about Jerusalem?{{ JERUSALEM_FACT }}
+
+Did you know this about India? {{ INDIA_FACT }}
+
+Did you know this about Mexico? {{ MEXICO_FACT }}
+
+
+
+Project Global Citizen time!
+
+{{ DAILY_LANGUAGE_SECTION }}
+
+Alright QUIZ TIME!
+For computer scrience Term today we have {{ QUIZ_ME_CS_TERM }}.
+A {{ QUIZ_ME_CS_TERM }} is {{ QUIZ_ME_CS_DEFINE }}
+
+Practicas!
+{{ QUIZ_ME_ESPANOL }} means {{ QuizMeIngles }}
+{{ QuizMeIngles }} means {{ QUIZ_ME_ESPANOL }} 
+
+
+That's the full briefing! Talk tomorrow.

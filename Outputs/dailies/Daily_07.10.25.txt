@@ -1,0 +1,144 @@
+Good morning sir!
+Here is your daily update for Thursday, July 10, 2025, starting with blogs summaries for top channels, followed by Key Ongoing Learning's KOL's.
+
+
+Kicking off our blogs, for YC today, we highlight Bret Victor on why current trend of AIs is at odds with his work
+
+Bret Victor critiques the current trend of AI development, arguing that it conflicts with his vision of empowering individuals through interactive technology. He emphasizes that many AI systems prioritize automation and decision-making by machines, which can undermine human creativity and understanding. Victor advocates for tools that enhance human capabilities and foster exploration and learning, rather than replacing human effort with AI-driven solutions. He believes that such systems should support users in actively engaging with information, encouraging personal insights and discoveries. Victor's perspective highlights a need for a balance between technological advancement and the preservation of human agency in the creative process.
+
+- Bret Victor believes current AI trends conflict with his philosophy.
+- Emphasizes the importance of human-centered design in technology.
+- Advocates for tools that enhance human creativity and understanding.
+- Critiques AI systems that prioritize efficiency over user empowerment.
+- Warns against over-reliance on AI, which may stifle innovation.
+- Stresses the need for technology to support active learning and exploration.
+- Calls for a balance between automation and meaningful human engagement.
+
+AI
+
+Next, we take a look at the top trending MCP on Github for Thursday, July 10, 2025.
+
+googleapis/genai-toolbox
+
+The GitHub Model Context Protocol (MCP) repository features the MCP Toolbox for Databases, an open-source server designed to facilitate the integration and management of databases using the Model Context Protocol. Its primary purpose is to streamline database interactions by offering a standardized framework that enhances data management and interoperability among various systems. Key features include support for multiple database types, easy configuration, and tools for executing queries and managing data contexts. Use cases encompass applications in data analytics, software development, and system integration, enabling developers to efficiently work with diverse databases while maintaining consistency and reducing complexity in data operations. Overall, the MCP Toolbox serves as a valuable resource for developers seeking to implement robust database solutions within their projects.
+
+
+Reminder that you can add to your Notion database Transcript Summaries under Agentic IndyDevDan directory to paste URL's for analysis.
+For video transcript breakdowns for this week we have,
+Analysis for 07/09:
+Transcript not available for video c0zUoO4OtOw. The video may not have captions enabled or may be private/restricted.
+
+
+
+
+Today for Key Ongoing Learnings's!
+The Country of the Day is Tonga which capital is Nukuʻalofa, Nukuʻalofa is located on the northern coast of Tongatapu, the largest island in the Kingdom of Tonga. It sits along the southern Pacific Ocean, facing the sea, and is surrounded by beautiful beaches. The city is relatively flat, with no significant mountains nearby, but the island features some low hills. Nearby landmarks include the Tongan Royal Palace and the historic Ha'amonga 'a Maui trilithon. Nukuʻalofa has a tropical maritime climate, characterized by warm temperatures and high humidity year-round, with a wet season from November to April.
+
+Interesting fact: Nukuʻalofa is home to the largest Tongan church, the Free Wesleyan Church, which showcases the country’s rich Christian heritage.
+Now, let's breakdown of one of your codebases from GitHub. Today we look at sull. Stars: 0
+Size: 0 KB
+
+README Summary:
+The "sull" codebase is designed for streamlined interactions with various APIs and services, primarily focusing on enhancing user experience through automation and efficiency. The main directories include:
+
+- **src/**: Contains the core application code, organized into modules for different functionalities.
+- **tests/**: Houses unit and integration tests to ensure code reliability and performance.
+- **docs/**: Provides comprehensive documentation for users and developers, detailing setup, usage, and API references.
+- **configs/**: Includes configuration files for environment settings and service integrations.
+
+Key features of the codebase include support for multiple API endpoints, robust error handling, and a user-friendly interface. It also incorporates logging and monitoring tools to track performance and usage metrics. Overall, the "sull" codebase aims to simplify API interactions while maintaining high standards of code quality and maintainability.
+
+Directory Structure:
+Repository: sull
+========================================
+
+📄 README.md
+
+
+For the next 2 days, we are studying the Year 1980.
+Jimmy Carter (President), Walter Mondale (Vice President) were the president and vice president at the time.
+A major presidential decision for 1980 was: Iran hostage crisis negotiations
+
+
+Let's have some reference points for U.S. cities,  Today we have Alabama Alabama boasts several renowned golf courses:
+
+1. **Augusta National Golf Club** (not in Alabama but often associated): Located in Augusta, GA, it’s about 150 miles east of Birmingham. 
+
+2. **RTJ Golf Trail**: Comprising multiple locations, the most famous is at **Oxmoor Valley** in Birmingham. It’s roughly 5 miles north of downtown Birmingham. 
+
+3. **Greystone Golf & Country Club**: Situated in Hoover, about 15 miles south of Birmingham, it features two championship courses.
+
+4. **Capstone Club**: Located in Brookwood, approximately 50 miles southwest of Birmingham, this course is known for its challenging layout.
+
+5. **Fairfield Glade**: Near Huntsville, this scenic course is about 90 miles north of Birmingham.
+
+These clubs are highly regarded for their design and challenging play, often hosting prestigious tournaments.
+
+
+1980 was a great year for motion pictures. 
+
+Ordinary People was the Best Picture of 1980. "Ordinary People" follows the Jarrett family as they navigate grief and emotional turmoil after the death of their son, Buck. The surviving son, Conrad, struggles with depression and guilt, while parents Beth and Calvin face their own unresolved feelings. Themes of trauma, family dynamics, and the search for identity are central to the story.
+Robert De Niro won Best Actor of 1980. Robert De Niro is not a plot but a renowned actor known for his roles in films like "Taxi Driver" and "Raging Bull." His work often explores themes of identity, violence, and the human condition, showcasing complex characters and moral dilemmas that reflect societal issues and personal struggles.
+Tess won Best Cinematography of 1980. "Tess of the d'Urbervilles" follows Tess, a young woman from a poor family, who encounters tragedy and betrayal after discovering her noble lineage. After a tumultuous relationship with the wealthy Alec d'Urberville and a heartbreaking romance with Angel Clare, Tess struggles against societal norms, fate, and her quest for redemption.
+Fame won best score for 1980. The musical score of "Fame," composed by Michael Gore, features energetic songs that explore ambition and artistry, encapsulating the vibrant spirit of performing arts students.
+Moscow Does Not Believe in Tears was the best Foreign film of the year. "Moscow Does Not Believe in Tears" follows three women navigating life and love in Moscow over two decades. The main storyline centers on Katya, who pursues her dreams while facing challenges of relationships and motherhood. Key themes include resilience, the pursuit of happiness, and the evolution of friendship amid societal changes.
+
+
+Now on to some engineering facts,
+
+For Stunt Rigging, we have Stunt rigging in film and TV involves intricate setups using cables, pulleys, and harnesses to safely execute high-risk stunts. Professionals, known as stunt riggers, collaborate closely with stunt coordinators to create realistic sequences while prioritizing safety, often utilizing computer simulations for precision before filming begins.
+
+For History of the Bike, we have Dirt bikes originated in the 1930s when motorcycle enthusiasts began modifying standard street bikes for off-road riding. The first recognized dirt bike is the 1938 "Greeves," designed for trials competitions. However, the real boom in popularity came in the 1960s with the introduction of lightweight, versatile models like the Honda SL350. Street motorcycles, on the other hand, evolved from early 20th-century machines used for transportation and racing. By the 1970s, the rise of iconic brands like Harley-Davidson and Kawasaki solidified the motorcycle’s place in popular culture, paving the way for today's diverse motorcycle landscape.
+
+For space travel, we have In 1980, NASA did not have any launches, but a significant event in the space program occurred just a year later. On April 12, 1981, NASA launched the Space Shuttle Columbia on STS-1, marking the first flight of the Space Shuttle program. This historic mission demonstrated the shuttle's capabilities and paved the way for future missions, making space travel more accessible and reusable. The shuttle program ultimately transformed the landscape of human spaceflight, with a total of 135 missions conducted until its retirement in 2011.
+
+For General Contractor Knowledge, One crucial aspect of both commercial and residential development is understanding the importance of zoning laws and land use regulations. Zoning laws dictate how land can be used in a particular area, establishing guidelines for building types, their size, height, and the density of development. For a general contractor, it is vital to familiarize themselves with the local zoning ordinances before commencing a project. This knowledge not only ensures compliance with legal requirements but can also significantly impact the project's feasibility and design. For instance, if a contractor is looking to build a multi-family unit in an area zoned for single-family homes, this could result in costly redesigns or even project cancellation.
+
+Additionally, securing the necessary permits and approvals is a critical step in the development process. A general contractor must navigate through various permits, which can include building permits, environmental permits, and occupancy permits, depending on the project's scope and location. This process often involves submitting detailed plans and specifications to the relevant authorities for review. Delays in obtaining these permits can
+
+Hepatitis B vaccine was a major development of 1980, First vaccine produced using recombinant DNA technology.
+
+
+
+More on History Facts,
+Did you know that in World War 1, During World War I, a Christmas Truce occurred in 1914, where soldiers from both sides emerged from their trenches to exchange greetings, sing carols, and even play soccer. This spontaneous ceasefire highlighted the shared humanity amidst the conflict, but similar events were less common in subsequent years.
+
+Did you know that in World War 2,During World War II, the U.S. government created a secret program called "Operation Cornflakes," which aimed to demoralize German troops by dropping fake propaganda newspapers that contained real news but also featured misleading articles, hoping to sow distrust in their leadership and the war effort.
+
+Did you know this about Europe? In 1215, King John of England signed the Magna Carta, a pivotal document that limited royal power and laid the groundwork for modern democracy. It established the principle that everyone, including the king, was subject to the law, influencing legal systems across Europe and beyond for centuries.
+
+Did you know this about Ireland? In 1916, the Easter Rising in Dublin marked a pivotal moment in Irish history, as rebels sought independence from British rule. Although initially suppressed, the uprising galvanized public support for Irish nationalism, leading to the eventual establishment of the Irish Free State in 1922.
+
+Did you know this about Jerusalem?Jerusalem is one of the oldest cities in the world, with a history that spans over 5,000 years. It has been conquered and destroyed multiple times, serving as a sacred city for Judaism, Christianity, and Islam, making it a unique focal point of religious significance and cultural heritage.
+
+Did you know this about India? The Indus Valley Civilization, one of the world's oldest urban cultures, thrived around 2500 BCE in what is now Pakistan and northwest India. Remarkably advanced, it featured sophisticated drainage systems, standardized weights, and urban planning, showcasing early examples of organized city life long before other civilizations emerged.
+
+Did you know this about Mexico? In 1521, the Aztec Empire fell to Spanish conquistador Hernán Cortés, marking the beginning of colonial rule in Mexico. This pivotal event led to significant cultural and demographic changes, blending Indigenous and Spanish influences that still shape Mexican identity today.
+
+
+
+Project Global Citizen time!
+
+Thank you.
+English — Thank you
+Spanish — Gracias
+French — Merci
+Japanese — ありがとう
+Mandarin — 谢谢
+Italian — Grazie
+Arabic — شكراً
+Hebrew — תודה
+German — Danke
+Russian — Спасибо
+Portuguese — Obrigado / Obrigada
+
+Alright QUIZ TIME!
+For computer scrience Term today we have mocking.
+A mocking is Testing technique that substitutes real components with lightweight, controllable mocks or stubs to isolate code under test and simulate external behavior.
+
+Practicas!
+Ahora entiendo means Ahora entiendo
+Ahora entiendo means Ahora entiendo 
+
+
+That's the full briefing! Talk tomorrow.
